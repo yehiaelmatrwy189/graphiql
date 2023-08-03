@@ -51,6 +51,7 @@ const App = () => {
       style={style}
       // eslint-disable-next-line @arthurgeron/react-usememo/require-usememo
       plugins={[docExplorer, explorer, exporter]}
+      referencePlugin={docExplorer}
       fetcher={fetcher}
     />
   );
